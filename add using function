@@ -23,3 +23,11 @@ function area(l,b)
  var length=100
  var breadth=19
  area(100,19)
+
+//return function
+function myname()
+{
+   return "manojkumar"
+}
+  var a=myname()
+  console.log(a)

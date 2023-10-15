@@ -13,3 +13,13 @@ function add(a,b)
     console.log(a+b)
 }
 add(10,80)
+
+//area formula
+function area(l,b)
+{
+    var a=l*b
+    console.log("Area is:"+a)
+}
+ var length=100
+ var breadth=19
+ area(100,19)

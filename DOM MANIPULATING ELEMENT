@@ -12,3 +12,14 @@
     para.textContent= "bye"
 
 </script>
+
+========================================================================================================================================================
+
+<h1 id="one">
+    hello world
+</h1>
+<script>
+    var h1= document.getElementById("one")
+    console.log(h1.textContent)
+    h1.textContent="bye world"
+</script>

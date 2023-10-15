@@ -1,3 +1,4 @@
+//add using fuction
 var a=6
 var b=7
 function add()
@@ -5,3 +6,10 @@ function add()
     console.log(a+b)
 }
 add()
+
+// add using parameter
+function add(a,b)
+{
+    console.log(a+b)
+}
+add(10,80)

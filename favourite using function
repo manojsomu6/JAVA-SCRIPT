@@ -1,0 +1,13 @@
+var factor="kamal"
+var fplayer="dhoni"
+var fmovie="vikaram"
+
+function favourite()
+{
+console.log("favoruite actor:"+factor)
+
+console.log("favoruite player:"+fplayer)
+
+console.log("favoruite movie:"+fmovie)
+}
+favourite()

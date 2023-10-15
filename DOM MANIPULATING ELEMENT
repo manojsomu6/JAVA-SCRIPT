@@ -1,0 +1,14 @@
+<p id="one">
+    hello
+</p>
+
+<h1 id="two">
+
+</h1>
+<script>
+    //select para tag using id
+    var para = document.getElementById("one")
+    console.log(para.textContent)
+    para.textContent= "bye"
+
+</script>

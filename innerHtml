@@ -1,0 +1,10 @@
+<div id="one">
+    manoj
+
+</div>
+
+<script>
+
+    var div=document.getElementById("one")
+    div.innerHTML="<h1>vanakam</h1>"
+</script>

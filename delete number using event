@@ -1,0 +1,16 @@
+<h1 id="rs" onclick="rubber(event)"> one</h1>
+<h1 id="num1" onclick="rubber(event)"> welcome</h1>
+<h1 id="num2" onclick="rubber(event)"> 2</h1>
+<h1 id="num3" onclick="rubber(event)"> 3</h1>
+<h1 id="num4" onclick="rubber(event)"> 4</h1>
+
+
+
+
+<script>
+    var h1=document.getElementById("rs")
+    function rubber(event)
+    {
+        event.target.remove()
+    }
+</script>

@@ -1,0 +1,15 @@
+<button id="ns" onclick="alertmessage()"> show</button>
+<script>
+
+    var button=document.getElementById("ns")
+    
+    button.addEventListener("click",function(){
+        alert("hello")})
+    
+
+
+    //function alertmessage()
+   // {
+        alert("hello")
+   // }
+</script>

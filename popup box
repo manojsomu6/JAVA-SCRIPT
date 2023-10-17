@@ -1,0 +1,61 @@
+<style>
+
+    .overlay
+    {
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        opacity: 0.8;
+        z-index: 1;
+        display: none;
+    
+    }
+
+    .box {
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(162, 0, 255);
+    color: rgb(232, 255, 127);
+    width: 40%;
+    padding: 30px;
+    border-radius: 19px;
+    left: 30%;
+    display: none;
+
+ }
+</style>
+
+
+
+<button onclick="change()"> Show</button>
+
+<div class="overlay"></div>
+
+<div class="box">
+
+<p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus quis, explicabo amet ipsam ea dolores incidunt rem commodi! Ipsum ipsa fuga quisquam saepe, ducimus eligendi dicta. Cum minus voluptas officia!</p>
+<button onclick="num1()"> close</button>
+</div>
+
+
+
+<script>
+    var overlay=document.querySelector(".overlay")
+    var onbox=document.querySelector(".box")
+    
+    function change()
+    {
+        onbox.style.display="block"
+        overlay.style.display="block"
+
+    }
+    function num1()
+    {
+        onbox.style.display="none"
+        overlay.style.display="none"
+    }
+
+</script>
